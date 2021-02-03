@@ -6,7 +6,20 @@ Click `Show` in the header to see your app live. Updates to your code will insta
 
 Find out more [about Glitch](https://glitch.com/about).
 
-## Your Project
+## Installing
+
+1. [Remix the project.](https://glitch.com/edit/#!/remix/hello-httpd)
+2. Click on `Tools` > `Terminal` and type these commands:
+
+`mysql -u root`
+
+`CREATE DATABASE glitch;`
+
+`exit`
+
+3. Enjoy!
+
+## Your project
 
 ### README.md
 
@@ -18,11 +31,11 @@ Where you'll write the PHP and HTML code of your website.
 
 ### php.ini
 
-Configure PHP settings to adjust how PHP runs
+Configure PHP settings to adjust how PHP runs.
 
 ### .htaccess
 
-Add rules to your website, such as what pages can or cannot be accessed
+Add rules to your website, such as what pages can or cannot be accessed.
 
 ### style.css
 
@@ -34,7 +47,7 @@ If you're feeling fancy you can add interactivity to your site with JavaScript.
 
 ### assets
 
-Drag in `assets`, like images or music, to add them to your project
+Drag in `assets`, like images or music, to add them to your project.
 
 ## Troubleshooting
 
